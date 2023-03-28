@@ -3,7 +3,7 @@ from face_recognition import face_locations
 from simple_facerec import SimpleFacerec
 
 sfr = SimpleFacerec()
-sfr.load_encoding_images("/mnt/92205AA6205A9159/Projects/Python/face_ai/photos/")
+sfr.load_encoding_images("Path to the folder photos")
 
 cap = cv2.VideoCapture(0)
 
